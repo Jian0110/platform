@@ -1,0 +1,11 @@
+/**
+ * Created by eclip_000 on 2017/6/14.
+ */
+#breadcrumb-content-container .active-container{
+    display: none;
+}
+.breadcrumb-content-item{
+    position: relative;
+    top:0;
+   	width:100%;
+}

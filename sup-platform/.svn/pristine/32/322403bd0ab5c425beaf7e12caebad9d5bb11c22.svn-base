@@ -1,0 +1,7 @@
+input[readonly]{background-color: #fff !important;}
+.select.layui-layer{box-shadow:none; border:1px solid #438EB9;}
+#user-image-input{display:none !important;}
+
+#user-edit-form,.form-actions{margin-bottom:0;}
+#username, #realname,#rolename,#department{margin-left:-15px}
+.underline{border-bottom: 1px solid #1a1a1a;min-height: 20px; margin-top:5px;}

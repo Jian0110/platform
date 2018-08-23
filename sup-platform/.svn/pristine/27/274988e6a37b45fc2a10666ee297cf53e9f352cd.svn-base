@@ -1,0 +1,10 @@
+#登录界面，如果session失效，会跳到这个地址
+shiro.loginUrl=/login
+#如果访问没有权限的地址，会被跳到这个地址
+shiro.unauthorizedUrl=/refuse
+#登录成功后跳转页面，这个没用了，因为是自己实现的登录方法。
+shiro.successUrl=/
+#加密次数 密码加密次数
+shiro.hashIterations=8
+#密码加密方法
+shiro.hashAlgorithmName=MD5

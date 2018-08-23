@@ -1,0 +1,6 @@
+upload.save.path.base=${upload.save.path.base}
+upload.temporary.path.base=${upload.temporary.path.base}
+download.temporary.path.base=${download.temporary.path.base}
+
+import.origin.enabled=true
+import.job&position.enabled=true

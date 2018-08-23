@@ -1,0 +1,31 @@
+jdbc.driver=com.mysql.jdbc.Driver
+
+jdbc.url=${jdbc.url}
+jdbc.username=${jdbc.username}
+jdbc.password=${jdbc.password}
+
+#jdbc.url=jdbc:mysql://192.168.0.30:3307/hr-platform-db1?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+#jdbc.username=root
+#jdbc.password=root
+
+#druid
+druid.maxActive=100
+druid.maxWait=28000
+druid.defaultAutoCommit=false
+druid.initialSize=1
+druid.validationQuery=select 1
+
+#hikari
+hikari.cachePrepStmts=true
+hikari.prepStmtCacheSize=250
+hikari.prepStmtCacheSqlLimit=2048
+hikari.connectionTestQuery=SELECT 1
+hikari.minIdle=1
+hikari.maxPoolSize=20
+
+
+#
+mybatis.helperDialect=mysql
+
+
+

@@ -1,0 +1,7 @@
+jdbc.url=jdbc:mysql://localhost:8066/hr-platform?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+jdbc.username=hr-platform-user
+jdbc.password=hr-platform-jiahua
+
+upload.save.path.base=/home/program_files/hr-platform/upload/
+upload.temporary.path.base=/home/program_files/hr-platform/temporary/
+download.temporary.path.base=/home/program_files/hr-platform/download/
